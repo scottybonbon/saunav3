@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sula Saunas | Built from the coast. Made for the cold.</title>
+<meta name="description" content="Premium Canadian saunas built from Pacific cedar and Finnish tradition, on the coast of British Columbia. Breathe deep, and let the rest go.">
+<meta property="og:title" content="Sula Saunas | Built from the coast. Made for the cold.">
+<meta property="og:description" content="Premium Canadian saunas built from Pacific cedar and Finnish tradition. Breathe deep, and let the rest go.">
+<meta property="og:image" content="uploads/pexels-sasha-vukovic-449306304-34155276.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2317110C'/%3E%3Ctext x='32' y='44' font-family='Helvetica,Arial,sans-serif' font-size='34' font-weight='700' fill='%23ECE7DF' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<script src="./image-slot.js"></script>
+<style>
+html, body { margin: 0; padding: 0; background: #232B31; overflow-x: hidden; }
+body { font-family: 'Schibsted Grotesk', sans-serif; color: #ECE7DF; -webkit-font-smoothing: antialiased; }
+a { color: #ECE7DF; text-decoration: none; }
+a:hover { color: #E05A2B; }
+::selection { background: #E05A2B; color: #17110C; }
+</style>
+</helmet>
+
+<div data-screen-label="SULA Home" style="position: relative;">
+  <div ref="{{ bgRef }}" style="position: fixed; inset: 0; z-index: 0; background: #232B31; transition: background .2s linear;"></div>
+  <div style="position: relative; z-index: 1;">
+
+    <nav style="position: fixed; top: 0; left: 0; right: 0; z-index: 40; display: flex; align-items: center; justify-content: space-between; padding: 18px clamp(20px, 5vw, 56px); background: linear-gradient(rgba(15,13,11,.55), rgba(15,13,11,0)); backdrop-filter: blur(6px);">
+      <a href="#top" style="font-weight: 700; font-size: 19px; letter-spacing: .42em; color: #ECE7DF;">SULA</a>
+      <div style="display: flex; align-items: center; gap: clamp(14px, 2.5vw, 36px);">
+        <sc-if value="{{ showNavLinks }}" hint-placeholder-val="{{ true }}"><div style="display: flex; align-items: center; gap: clamp(18px, 2.5vw, 36px);">
+        <a href="#saunas" style="font-size: 15px; font-weight: 500; color: rgba(236,231,223,.85);" style-hover="color: #E05A2B;">Saunas</a>
+        <a href="#materials" style="font-size: 15px; font-weight: 500; color: rgba(236,231,223,.85);" style-hover="color: #E05A2B;">Materials</a>
+        <a href="#ritual" style="font-size: 15px; font-weight: 500; color: rgba(236,231,223,.85);" style-hover="color: #E05A2B;">The ritual</a>
+        <a href="#journal" style="font-size: 15px; font-weight: 500; color: rgba(236,231,223,.85);" style-hover="color: #E05A2B;">Journal</a>
+        </div></sc-if>
+        <a href="#inquire" style="font-size: 15px; font-weight: 600; background: #ECE7DF; color: #17110C; padding: 12px 26px;" style-hover="background: #E05A2B; color: #17110C;">Inquire</a>
+      </div>
+    </nav>
+
+    <header id="top" style="position: relative; height: 100vh; min-height: 720px; overflow: hidden; background: #10141A;">
+      <sc-if value="{{ showHeroVideo }}" hint-placeholder-val="{{ true }}">
+        <video src="uploads/9165939-uhd_4096_2160_25fps.mp4" autoPlay="{{ true }}" muted="{{ true }}" loop="{{ true }}" playsInline="{{ true }}" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: saturate(.82) brightness(.8);"></video>
+      </sc-if>
+      <sc-if value="{{ showHeroStill }}" hint-placeholder-val="{{ false }}">
+        <div style="position: absolute; inset: 0;"><image-slot id="hero-still" shape="rect" src="uploads/pexels-sasha-vukovic-449306304-34155276.jpg" placeholder="Hero still — sauna in dark coastal landscape"></image-slot></div>
+      </sc-if>
+      <div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(16,20,26,.35) 0%, rgba(16,20,26,.1) 45%, rgba(16,20,26,.78) 100%);"></div>
+      <div style="position: absolute; left: clamp(20px, 5vw, 56px); right: clamp(20px, 5vw, 56px); bottom: clamp(40px, 7vw, 72px);">
+        <h1 style="margin: 0 0 30px; font-weight: 500; font-size: clamp(42px, 8.5vw, 124px); line-height: 1; letter-spacing: -0.015em; color: #ECE7DF;">Breathe deep<br>and let it all go.</h1>
+        <p style="margin: 0; max-width: 500px; font-size: 18px; line-height: 1.6; color: rgba(236,231,223,.75); text-wrap: pretty;">Heat, then cold, then a few quiet minutes in between. The noise goes quiet, and you come back warm and unwound.</p>
+      </div>
+    </header>
+
+    <section data-screen-label="Manifesto" style="padding: clamp(110px, 16vw, 200px) clamp(20px, 5vw, 56px); max-width: 1100px; margin: 0 auto; box-sizing: border-box;">
+      <div data-reveal="m1">
+        <p style="margin: 0 0 40px; font-size: 15px; color: rgba(236,231,223,.5);"><em>Sula</em> — Finnish for melted, thawed, unfrozen.</p>
+        <p style="margin: 0; font-weight: 500; font-size: clamp(34px, 3.6vw, 56px); line-height: 1.18; color: #ECE7DF;">Cold skin.<br>Warm wood.<br>Water on stone.<br><span style="color: rgba(236,231,223,.45);">The day leaves quietly.</span></p>
+        <p style="margin: 56px 0 0; max-width: 520px; font-size: 17.5px; line-height: 1.7; color: rgba(236,231,223,.7); text-wrap: pretty;">Built from Pacific wood and shaped by Finnish tradition, made for the weather and rituals of coastal life. Less a thing you own than a place you go — a private sanctuary a few steps from the door, and a reason to step outside, slow down and come back different.</p>
+      </div>
+    </section>
+
+    <section id="saunas" data-screen-label="Saunas" style="padding: 0 clamp(20px, 5vw, 56px) clamp(96px, 12vw, 160px); max-width: 1520px; margin: 0 auto; box-sizing: border-box;">
+      <div data-reveal="s0" style="border-top: 1px solid rgba(236,231,223,.2); padding-top: 28px; margin-bottom: clamp(56px, 8vw, 88px);">
+        <h2 style="margin: 0; font-weight: 600; font-size: clamp(38px, 4vw, 60px); letter-spacing: -0.01em;">Three rooms.<br>Nothing missing.</h2>
+      </div>
+
+      <div data-reveal="s1" style="display: grid; grid-template-columns: {{ prodA }}; gap: clamp(32px, 5vw, 64px); align-items: end; margin-bottom: clamp(80px, 10vw, 128px);">
+        <div style="height: clamp(360px, 85vw, 640px); overflow: hidden; background: #17110C;">
+          <image-slot id="sula-one" shape="rect" src="uploads/pexels-sasha-vukovic-449306304-34155276.jpg" placeholder="Sula One in dark forest"></image-slot>
+        </div>
+        <div>
+          <h3 style="margin: 0 0 20px; font-weight: 600; font-size: clamp(34px, 6vw, 46px); letter-spacing: -0.01em;">Sula One</h3>
+          <p style="margin: 0 0 36px; font-size: 16.5px; line-height: 1.65; color: rgba(236,231,223,.7); max-width: 380px; text-wrap: pretty;">A room for two. Small enough to sit anywhere the forest allows. Warm in forty minutes, rain or not.</p>
+          <div style="font-size: 14.5px; line-height: 2.4; color: rgba(236,231,223,.75); border-top: 1px solid rgba(236,231,223,.2); padding-top: 20px;">
+            <div style="display: flex; justify-content: space-between;"><span style="color: rgba(236,231,223,.5);">Capacity</span><span>2 persons</span></div>
+            <div style="display: flex; justify-content: space-between;"><span style="color: rgba(236,231,223,.5);">Footprint</span><span>2.1 × 2.4 m</span></div>
+            <div style="display: flex; justify-content: space-between;"><span style="color: rgba(236,231,223,.5);">Heat</span><span>Wood-fired · {{ heat }}</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div data-reveal="s2" style="display: grid; grid-template-columns: {{ prodB }}; gap: clamp(32px, 5vw, 64px); align-items: end; margin-bottom: clamp(80px, 10vw, 128px);">
+        <div>
+          <h3 style="margin: 0 0 20px; font-weight: 600; font-size: clamp(34px, 6vw, 46px); letter-spacing: -0.01em;">Sula Two</h3>
+          <p style="margin: 0 0 36px; font-size: 16.5px; line-height: 1.65; color: rgba(236,231,223,.7); max-width: 380px; text-wrap: pretty;">The family room. Six can sit without negotiation. Conversation returns somewhere around the second round.</p>
+          <div style="font-size: 14.5px; line-height: 2.4; color: rgba(236,231,223,.75); border-top: 1px solid rgba(236,231,223,.2); padding-top: 20px;">
+            <div style="display: flex; justify-content: space-between;"><span style="color: rgba(236,231,223,.5);">Capacity</span><span>4–6 persons</span></div>
+            <div style="display: flex; justify-content: space-between;"><span style="color: rgba(236,231,223,.5);">Footprint</span><span>2.4 × 3.6 m</span></div>
+            <div style="display: flex; justify-content: space-between;"><span style="color: rgba(236,231,223,.5);">Heat</span><span>Wood or electric · {{ heat }}</span></div>
+          </div>
+        </div>
+        <div style="height: clamp(360px, 85vw, 640px); overflow: hidden; background: #17110C;">
+          <image-slot id="sula-two" shape="rect" placeholder="Sula Two — exterior in coastal weather (awaiting photography)"></image-slot>
+        </div>
+      </div>
+
+      <div data-reveal="s3" style="display: grid; grid-template-columns: {{ prodA }}; gap: clamp(32px, 5vw, 64px); align-items: end;">
+        <div style="height: clamp(360px, 85vw, 640px); overflow: hidden; background: #17110C;">
+          <image-slot id="sula-cabin" shape="rect" src="uploads/pexels-filipp-romanovski-297235844-13286779.jpg" placeholder="Sula Cabin at the waterline"></image-slot>
+        </div>
+        <div>
+          <h3 style="margin: 0 0 20px; font-weight: 600; font-size: clamp(34px, 6vw, 46px); letter-spacing: -0.01em;">Sula Cabin</h3>
+          <p style="margin: 0 0 36px; font-size: 16.5px; line-height: 1.65; color: rgba(236,231,223,.7); max-width: 380px; text-wrap: pretty;">Sauna, change room and a covered place to cool down. Built for lodges, shorelines and long winters with guests.</p>
+          <div style="font-size: 14.5px; line-height: 2.4; color: rgba(236,231,223,.75); border-top: 1px solid rgba(236,231,223,.2); padding-top: 20px;">
+            <div style="display: flex; justify-content: space-between;"><span style="color: rgba(236,231,223,.5);">Capacity</span><span>6–8 persons</span></div>
+            <div style="display: flex; justify-content: space-between;"><span style="color: rgba(236,231,223,.5);">Footprint</span><span>3.0 × 5.4 m</span></div>
+            <div style="display: flex; justify-content: space-between;"><span style="color: rgba(236,231,223,.5);">Heat</span><span>Wood-fired · {{ heat }}</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="materials" data-screen-label="Materials" style="background: #ECE7DF; color: #17110C; padding: clamp(96px, 12vw, 160px) clamp(20px, 5vw, 56px);">
+      <div style="max-width: 1520px; margin: 0 auto;">
+        <div data-reveal="mat0" style="border-top: 1px solid rgba(23,17,12,.25); padding-top: 28px; margin-bottom: clamp(56px, 8vw, 88px);">
+          <h2 style="margin: 0; font-weight: 600; font-size: clamp(38px, 4vw, 60px); letter-spacing: -0.01em; color: #17110C;">Wood. Stone.<br>Water. Fire. Air.</h2>
+        </div>
+        <div data-reveal="mat1" style="display: grid; grid-template-columns: {{ twoCol }}; gap: clamp(32px, 5vw, 64px); align-items: stretch;">
+          <div style="min-height: clamp(320px, 75vw, 560px); overflow: hidden; background: #17110C;">
+            <image-slot id="materials-photo" shape="rect" src="uploads/pexels-huum-sauna-heaters-718199222-37816612.jpg" placeholder="Material detail — stones and timber"></image-slot>
+          </div>
+          <div style="display: flex; flex-direction: column; justify-content: space-between; gap: 48px;">
+            <p style="margin: 0; font-size: clamp(22px, 2vw, 30px); line-height: 1.45; color: rgba(23,17,12,.85); max-width: 560px; text-wrap: pretty;">Every Sula is built from materials that already live here — cedar that grew in the rain it will stand in, stone shaped by the rivers it will warm beside. Under heat the cedar gives off a faint, sweet scent: the part of the room you can't photograph.</p>
+            <div style="font-size: 15px; line-height: 2.5; color: rgba(23,17,12,.85); border-top: 1px solid rgba(23,17,12,.25); padding-top: 24px;">
+              <div style="display: flex; justify-content: space-between; gap: 24px;"><span>Western red cedar</span><span style="color: #7E827F;">Vancouver Island, BC</span></div>
+              <div style="display: flex; justify-content: space-between; gap: 24px;"><span>Olivine diabase stone</span><span style="color: #7E827F;">Coast Mountains, BC</span></div>
+              <div style="display: flex; justify-content: space-between; gap: 24px;"><span>Blackened steel</span><span style="color: #7E827F;">Fabricated in Vancouver</span></div>
+              <div style="display: flex; justify-content: space-between; gap: 24px;"><span>Glass</span><span style="color: #7E827F;">Double-pane, tempered</span></div>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; border-top: 1px solid rgba(23,17,12,.25); padding-top: 24px;">
+              <div><p style="margin: 0 0 6px; font-size: 14px; font-weight: 600; color: #9C5636;">Solid</p><p style="margin: 0; font-size: 15px; color: rgba(23,17,12,.75);">Timber, stone, architecture.</p></div>
+              <div><p style="margin: 0 0 6px; font-size: 14px; font-weight: 600; color: #9C5636;">Liquid</p><p style="margin: 0; font-size: 15px; color: rgba(23,17,12,.75);">Water, rain, ocean.</p></div>
+              <div><p style="margin: 0 0 6px; font-size: 14px; font-weight: 600; color: #9C5636;">Vapour</p><p style="margin: 0; font-size: 15px; color: rgba(23,17,12,.75);">Steam, mist, breath.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ritual" data-screen-label="The Ritual" style="padding: clamp(96px, 12vw, 160px) clamp(20px, 5vw, 56px); max-width: 1520px; margin: 0 auto; box-sizing: border-box;">
+      <div data-reveal="r0" style="border-top: 1px solid rgba(236,231,223,.2); padding-top: 28px; margin-bottom: clamp(56px, 8vw, 88px);">
+        <h2 style="margin: 0; font-weight: 600; font-size: clamp(38px, 4vw, 60px); letter-spacing: -0.01em;">Heat. Cold.<br>Rest. Repeat.</h2>
+      </div>
+      <div data-reveal="r1" style="display: grid; grid-template-columns: {{ ritCols }}; gap: 1px; background: rgba(236,231,223,.2); border: 1px solid rgba(236,231,223,.2); margin-bottom: clamp(64px, 9vw, 96px);">
+        <div style="background: rgba(23,17,12,.55); padding: clamp(24px, 3.5vw, 36px) clamp(20px, 3vw, 32px) clamp(32px, 4.5vw, 44px);">
+          <p style="margin: 0 0 40px; font-size: 15px; color: rgba(236,231,223,.6);">Heat</p>
+          <p style="margin: 0; font-weight: 600; font-size: clamp(40px, 7vw, 56px); color: #E05A2B;">{{ heat }}</p>
+          <p style="margin: 14px 0 0; font-size: 15px; line-height: 1.6; color: rgba(236,231,223,.7);">Fifteen minutes. Water meets stone. Shoulders fall.</p>
+        </div>
+        <div style="background: rgba(23,17,12,.55); padding: clamp(24px, 3.5vw, 36px) clamp(20px, 3vw, 32px) clamp(32px, 4.5vw, 44px);">
+          <p style="margin: 0 0 40px; font-size: 15px; color: rgba(236,231,223,.6);">Cold</p>
+          <p style="margin: 0; font-weight: 600; font-size: clamp(40px, 7vw, 56px); color: #9FAEB5;">{{ cold }}</p>
+          <p style="margin: 14px 0 0; font-size: 15px; line-height: 1.6; color: rgba(236,231,223,.7);">Two minutes. Ocean, plunge or rain barrel. The shock that wakes you.</p>
+        </div>
+        <div style="background: rgba(23,17,12,.55); padding: clamp(24px, 3.5vw, 36px) clamp(20px, 3vw, 32px) clamp(32px, 4.5vw, 44px);">
+          <p style="margin: 0 0 40px; font-size: 15px; color: rgba(236,231,223,.6);">Rest</p>
+          <p style="margin: 0; font-weight: 600; font-size: clamp(40px, 7vw, 56px); color: #ECE7DF;">10<span style="font-size: 24px;"> min</span></p>
+          <p style="margin: 14px 0 0; font-size: 15px; line-height: 1.6; color: rgba(236,231,223,.7);">Sit outside. Breath visible. Nothing asks for your attention.</p>
+        </div>
+        <div style="background: rgba(23,17,12,.55); padding: clamp(24px, 3.5vw, 36px) clamp(20px, 3vw, 32px) clamp(32px, 4.5vw, 44px);">
+          <p style="margin: 0 0 40px; font-size: 15px; color: rgba(236,231,223,.6);">Repeat</p>
+          <p style="margin: 0; font-weight: 600; font-size: clamp(40px, 7vw, 56px); color: #ECE7DF;">× 3</p>
+          <p style="margin: 14px 0 0; font-size: 15px; line-height: 1.6; color: rgba(236,231,223,.7);">Until the day has left. Then return to it, warmer.</p>
+        </div>
+      </div>
+      <div data-reveal="r2" style="display: grid; grid-template-columns: {{ mediaCols }}; gap: clamp(32px, 5vw, 64px); align-items: stretch;">
+        <div style="min-height: clamp(320px, 80vw, 520px); overflow: hidden; background: #17110C;">
+          <image-slot id="ritual-people" shape="rect" src="uploads/pexels-huum-sauna-heaters-718199222-33517869.jpg" placeholder="Quiet conversation in the heat"></image-slot>
+        </div>
+        <div style="position: relative; overflow: hidden; background: #17110C; min-height: clamp(280px, 65vw, 520px);">
+          <video src="uploads/5976355-uhd_4096_2160_24fps.mp4" autoPlay="{{ true }}" muted="{{ true }}" loop="{{ true }}" playsInline="{{ true }}" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: saturate(.9);"></video>
+          <p style="position: absolute; left: 28px; bottom: 24px; margin: 0; font-size: 14px; color: rgba(236,231,223,.9); background: rgba(23,17,12,.5); padding: 9px 16px; backdrop-filter: blur(8px);">Silence without loneliness</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="journal" data-screen-label="Journal" style="padding: 0 clamp(20px, 5vw, 56px) clamp(96px, 12vw, 160px); max-width: 1200px; margin: 0 auto; box-sizing: border-box;">
+      <div data-reveal="j0" style="display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 12px 40px; border-top: 1px solid rgba(236,231,223,.2); padding-top: 28px; margin-bottom: 48px;">
+        <h2 style="margin: 0; font-weight: 600; font-size: clamp(30px, 3vw, 44px); letter-spacing: -0.01em;">The Warmth Journal</h2>
+        <a href="#journal" style="font-size: 15px; color: rgba(236,231,223,.6);" style-hover="color: #E05A2B;">All entries →</a>
+      </div>
+      <div data-reveal="j1" style="display: flex; flex-direction: column;">
+        <a href="#journal" style="display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 6px 32px; padding: 26px 0; border-bottom: 1px solid rgba(236,231,223,.15);" style-hover="color: #E05A2B;">
+          <span style="font-size: clamp(18px, 2.8vw, 22px); font-weight: 500;">Material No. 01 — Western red cedar</span>
+          <span style="font-size: 14px; color: rgba(236,231,223,.5); white-space: nowrap;">Field notes · June 2026</span>
+        </a>
+        <a href="#journal" style="display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 6px 32px; padding: 26px 0; border-bottom: 1px solid rgba(236,231,223,.15);" style-hover="color: #E05A2B;">
+          <span style="font-size: clamp(18px, 2.8vw, 22px); font-weight: 500;">The Weather Report — A wet spring, a hot room</span>
+          <span style="font-size: 14px; color: rgba(236,231,223,.5); white-space: nowrap;">Seasonal · April 2026</span>
+        </a>
+        <a href="#journal" style="display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 6px 32px; padding: 26px 0; border-bottom: 1px solid rgba(236,231,223,.15);" style-hover="color: #E05A2B;">
+          <span style="font-size: clamp(18px, 2.8vw, 22px); font-weight: 500;">Sula Sessions — Two architects, one bench</span>
+          <span style="font-size: 14px; color: rgba(236,231,223,.5); white-space: nowrap;">Conversation · February 2026</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="inquire" data-screen-label="Inquire" style="padding: clamp(110px, 16vw, 180px) clamp(20px, 5vw, 56px) clamp(96px, 13vw, 140px); text-align: center;">
+      <div data-reveal="c0">
+        <p style="margin: 0 0 28px; font-size: 16px; color: rgba(236,231,223,.6);">Built to order. Delivered anywhere the rain falls.</p>
+        <h2 style="margin: 0 0 48px; font-weight: 500; font-size: clamp(36px, 7vw, 88px); line-height: 1; letter-spacing: -0.015em;">There is nowhere<br>else to be.</h2>
+        <a href="#inquire" style="display: inline-block; font-size: 16px; font-weight: 600; background: #E05A2B; color: #17110C; padding: 18px 44px;" style-hover="background: #ECE7DF;">Start an inquiry</a>
+      </div>
+    </section>
+
+    <footer ref="{{ footRef }}" style="position: relative; overflow: hidden; border-top: 1px solid rgba(236,231,223,.15);">
+      <div style="max-width: 1520px; margin: 0 auto; padding: clamp(64px, 9vw, 104px) clamp(20px, 5vw, 56px) clamp(28px, 3.5vw, 44px); box-sizing: border-box;">
+        <div style="display: grid; grid-template-columns: {{ footCols }}; gap: clamp(40px, 5vw, 64px) clamp(32px, 4vw, 72px);">
+          <div>
+            <p style="margin: 0 0 22px; font-size: clamp(19px, 2vw, 24px); font-weight: 500; line-height: 1.35; letter-spacing: -0.01em; color: #ECE7DF; max-width: 300px; text-wrap: pretty;">Letters from the coast.</p>
+            <p style="margin: 0 0 22px; font-size: 14.5px; line-height: 1.6; color: rgba(236,231,223,.55); max-width: 280px;">A few times a year — a new room, a cold morning, a reason to light the stove.</p>
+            <form onSubmit="{{ onSubscribe }}" style="display: flex; align-items: center; gap: 14px; max-width: 320px; border-bottom: 1px solid rgba(236,231,223,.3); padding-bottom: 10px;">
+              <input type="email" placeholder="Your email" style="flex: 1; min-width: 0; background: transparent; border: 0; outline: none; color: #ECE7DF; font-family: inherit; font-size: 15px;">
+              <button type="submit" aria-label="Subscribe" style="background: transparent; border: 0; color: #E05A2B; font-family: inherit; font-size: 20px; cursor: pointer; padding: 0; line-height: 1;" style-hover="color: #ECE7DF;">→</button>
+            </form>
+          </div>
+          <nav style="display: flex; flex-direction: column; gap: 15px;">
+            <p style="margin: 0 0 6px; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: rgba(236,231,223,.4);">Saunas</p>
+            <a href="#saunas" style="font-size: 15.5px; color: rgba(236,231,223,.78);" style-hover="color: #E05A2B;">Sula One</a>
+            <a href="#saunas" style="font-size: 15.5px; color: rgba(236,231,223,.78);" style-hover="color: #E05A2B;">Sula Two</a>
+            <a href="#saunas" style="font-size: 15.5px; color: rgba(236,231,223,.78);" style-hover="color: #E05A2B;">Sula Cabin</a>
+          </nav>
+          <nav style="display: flex; flex-direction: column; gap: 15px;">
+            <p style="margin: 0 0 6px; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: rgba(236,231,223,.4);">Explore</p>
+            <a href="#materials" style="font-size: 15.5px; color: rgba(236,231,223,.78);" style-hover="color: #E05A2B;">Materials</a>
+            <a href="#ritual" style="font-size: 15.5px; color: rgba(236,231,223,.78);" style-hover="color: #E05A2B;">The ritual</a>
+            <a href="#journal" style="font-size: 15.5px; color: rgba(236,231,223,.78);" style-hover="color: #E05A2B;">Journal</a>
+          </nav>
+          <div style="display: flex; flex-direction: column; gap: 15px;">
+            <p style="margin: 0 0 6px; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: rgba(236,231,223,.4);">Studio</p>
+            <a href="#inquire" style="font-size: 15.5px; color: rgba(236,231,223,.78);" style-hover="color: #E05A2B;">Book a visit</a>
+            <a href="#inquire" style="font-size: 15.5px; color: rgba(236,231,223,.78);" style-hover="color: #E05A2B;">hello@sulasaunas.ca</a>
+            <a href="#inquire" style="font-size: 15.5px; color: rgba(236,231,223,.78);" style-hover="color: #E05A2B;">Instagram</a>
+          </div>
+        </div>
+        <div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 40px; margin-top: clamp(48px, 6vw, 80px); padding-top: 22px; border-top: 1px solid rgba(236,231,223,.15); font-size: 13px; color: rgba(236,231,223,.5);">
+          <span style="font-variant-numeric: tabular-nums;">49.2827° N &nbsp;123.1207° W</span>
+          <span style="font-variant-numeric: tabular-nums;">Vancouver, BC — <span ref="{{ clockRef }}" style="color: rgba(236,231,223,.7);">{{ localTime }}</span></span>
+          <span style="font-variant-numeric: tabular-nums;">Inside {{ heat }} &nbsp;·&nbsp; Outside {{ cold }}</span>
+        </div>
+      </div>
+      <div style="position: relative; padding: 0 clamp(12px, 2vw, 28px);">
+        <div ref="{{ markRef }}" style="--mx: 50%; --my: 62%; font-weight: 800; font-size: 25.5vw; line-height: .74; letter-spacing: -0.01em; text-align: center; transform: translateY(15%); user-select: none; -webkit-user-select: none; background: radial-gradient(circle at var(--mx) var(--my), #F5763E 0%, #E05A2B 7%, #9C5636 19%, rgba(236,231,223,.13) 44%); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent;">SULA</div>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; padding: 0 clamp(20px, 5vw, 56px) 26px; font-size: 13px; color: rgba(236,231,223,.4);">
+        <span>Sula Saunas — Vancouver, BC</span>
+        <span><em>Built from the coast. Made for the cold.</em></span>
+        <span>© 2026</span>
+      </div>
+    </footer>
+
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;thermalShift&quot;: {&quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Signature interaction&quot;, &quot;description&quot;: &quot;Background warms from cool exterior to charred-cedar interior as you scroll&quot;}, &quot;heroMedia&quot;: {&quot;editor&quot;: &quot;enum&quot;, &quot;options&quot;: [&quot;video&quot;, &quot;still&quot;], &quot;default&quot;: &quot;video&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Hero&quot;}, &quot;tempUnit&quot;: {&quot;editor&quot;: &quot;enum&quot;, &quot;options&quot;: [&quot;°C&quot;, &quot;°F&quot;], &quot;default&quot;: &quot;°C&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Content&quot;}}">
+class Component extends DCLogic {
+  state = { isMobile: typeof window !== "undefined" && window.innerWidth < 900, localTime: "" };
+  bgRef = React.createRef();
+  footRef = React.createRef();
+  markRef = React.createRef();
+  clockRef = React.createRef();
+
+  fmt(c) {
+    const unit = this.props.tempUnit ?? "°C";
+    return unit === "°F" ? Math.round(c * 9 / 5 + 32) + "°F" : c + "°C";
+  }
+
+  renderVals() {
+    const heroMedia = this.props.heroMedia ?? "video";
+    const m = this.state.isMobile;
+    return {
+      bgRef: this.bgRef,
+      footRef: this.footRef,
+      markRef: this.markRef,
+      clockRef: this.clockRef,
+      localTime: this.state.localTime,
+      onSubscribe: (e) => e.preventDefault(),
+      showHeroVideo: heroMedia === "video",
+      showHeroStill: heroMedia === "still",
+      heat: this.fmt(90),
+      cold: this.fmt(8),
+      showNavLinks: !m,
+      prodA: m ? "1fr" : "1.35fr 1fr",
+      prodB: m ? "1fr" : "1fr 1.35fr",
+      twoCol: m ? "1fr" : "1fr 1fr",
+      ritCols: m ? "1fr 1fr" : "repeat(4, 1fr)",
+      mediaCols: m ? "1fr" : "1fr 1.5fr",
+      footCols: m ? "1fr 1fr" : "1.6fr 1fr 1fr 1.1fr",
+    };
+  }
+
+  componentDidMount() {
+    const cool = [35, 43, 49];
+    const warm = [32, 17, 11];
+    const onScroll = () => {
+      const doc = document.documentElement;
+      const max = Math.max(1, doc.scrollHeight - window.innerHeight);
+      const p = Math.min(1, Math.max(0, window.scrollY / max));
+      const shift = this.props.thermalShift ?? true;
+      if (this.bgRef.current) {
+        const q = shift ? p : 0;
+        const c = cool.map((v, i) => Math.round(v + (warm[i] - v) * q));
+        this.bgRef.current.style.background = `rgb(${c[0]},${c[1]},${c[2]})`;
+      }
+    };
+    this._onScroll = onScroll;
+    window.addEventListener("scroll", onScroll, { passive: true });
+    this._onResize = () => { const mm = window.innerWidth < 900; if (mm !== this.state.isMobile) this.setState({ isMobile: mm }); };
+    window.addEventListener("resize", this._onResize);
+    onScroll();
+
+    const nodes = Array.from(document.querySelectorAll("[data-reveal]"));
+    nodes.forEach(n => {
+      n.style.opacity = "0";
+      n.style.transform = "translateY(28px)";
+      n.style.transition = "opacity .9s cubic-bezier(.2,.7,.2,1), transform .9s cubic-bezier(.2,.7,.2,1)";
+    });
+    this._io = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.style.opacity = "1";
+          e.target.style.transform = "none";
+          this._io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    nodes.forEach(n => this._io.observe(n));
+
+    const fmtTime = () => {
+      try {
+        return new Intl.DateTimeFormat("en-CA", { timeZone: "America/Vancouver", hour: "numeric", minute: "2-digit", hour12: true }).format(new Date());
+      } catch (e) { return ""; }
+    };
+    const tick = () => {
+      const t = fmtTime();
+      if (this.clockRef.current) this.clockRef.current.textContent = t;
+      else this.setState({ localTime: t });
+    };
+    tick();
+    this._clock = setInterval(tick, 15000);
+
+    let lastMove = 0;
+    const setLight = (x, y) => {
+      const el = this.markRef.current;
+      if (!el) return;
+      el.style.setProperty("--mx", x + "px");
+      el.style.setProperty("--my", y + "px");
+    };
+    this._onFootMove = (e) => {
+      const el = this.markRef.current;
+      if (!el) return;
+      const r = el.getBoundingClientRect();
+      lastMove = performance.now();
+      setLight(e.clientX - r.left, e.clientY - r.top);
+    };
+    if (this.footRef.current) this.footRef.current.addEventListener("pointermove", this._onFootMove, { passive: true });
+    const loop = (now) => {
+      const el = this.markRef.current;
+      if (el && now - lastMove > 2200) {
+        const r = el.getBoundingClientRect();
+        const px = (Math.sin(now / 2600) * 0.5 + 0.5) * r.width;
+        const py = (Math.sin(now / 3700 + 1.2) * 0.5 + 0.5) * r.height;
+        setLight(px, py);
+      }
+      this._raf = requestAnimationFrame(loop);
+    };
+    this._raf = requestAnimationFrame(loop);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this._onScroll);
+    window.removeEventListener("resize", this._onResize);
+    if (this._io) this._io.disconnect();
+    if (this._clock) clearInterval(this._clock);
+    if (this._raf) cancelAnimationFrame(this._raf);
+    if (this.footRef.current && this._onFootMove) this.footRef.current.removeEventListener("pointermove", this._onFootMove);
+  }
+}
+</script>
+</body>
+</html>
